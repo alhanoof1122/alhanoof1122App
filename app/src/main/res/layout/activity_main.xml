@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/headerImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FCFDFD"
+        android:scaleType="fitStart"
+        android:src="@drawable/s" />
+
+    <TextView
+        android:id="@+id/cafetimeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="StarBucks For Good Drinks!"
+        android:textColor="#F10A0A"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/callButton"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerImage"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="-268dp"
+        android:background="#FFA500"
+        android:text="Call Us"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/worksHoursButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/callButton"
+        android:layout_marginTop="20dp"
+        android:background="#FFA500"
+        android:text="Works Hours"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/aboutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/worksHoursButton"
+        android:layout_marginTop="20dp"
+        android:background="#FFA500"
+        android:text="About"
+        android:textColor="#000000" />
+</RelativeLayout>
